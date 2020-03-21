@@ -1,0 +1,230 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+body {
+  background-image: url("../img/wall.jpg");
+}
+
+#contenedor {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  box-shadow: #571818 0px 0px 20px 5px;
+  /* border: 1px solid red; */
+}
+
+textarea {
+  resize: none;
+}
+
+#contenido {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  /* border: 1px solid red; */
+  height: 20%;
+  clear: both;
+  text-align: left;
+  background-color: rgba(13, 154, 215, 0.8);
+}
+
+header h1 {
+  padding-top: 5%;
+  font-family: 'Gayathri', sans-serif;
+}
+
+header h3 {
+  text-transform: uppercase;
+}
+
+#saludo {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding-left: 10%;
+  /* border: 1px solid red; */
+}
+
+header img {
+  float: right;
+  width: auto;
+  height: 100%;
+  padding-right: 5%;
+}
+
+#menu {
+  float: left;
+  width: 35%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#menu input {
+  width: 65%;
+  /* border: 1px solid green; */
+  height: 40px;
+  margin: 5%;
+  font-size: 20px;
+  /* border-radius: 15px; */
+  color: white;
+  background-color: #0D9AD7;
+}
+
+#menu input:hover,
+#regMed:hover,
+#regPac:hover,
+#registrar:hover,
+#regCita:hover {
+  background-color: #FE0000;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#alta {
+  float: right;
+  width: 65%;
+  /* border: 1px solid green; */
+}
+
+#menu,
+#alta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+#datos1 {
+  float: left;
+  margin-right: 40px;
+}
+
+#datos2 {
+  float: right;
+  margin-left: 40px;
+}
+
+input,
+select {
+  font-size: 15px;
+  padding-left: 4px;
+  background-color: #CECECE;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.atender {
+  height: 30px;
+  width: 50px;
+  border: 0;
+  background-image: url("../img/atender.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #CECECE;
+}
+
+input:hover,
+select>option:hover,
+.atender:hover {
+  background-color: #f6b04e;
+  box-shadow: 0px 0px 5px black;
+}
+
+option {
+  font-family: Verdana, Arial;
+  font-size: 12px;
+}
+
+#sexo {
+  width: 30px;
+  height: 10px;
+}
+
+#registrar,
+#regMed,
+#regPac,
+#regCita {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: #0D9AD7;
+}
+
+#citas {
+  border-collapse: collapse;
+  border: #fe000048 1px solid;
+  margin-right: 2%;
+}
+
+#citas th,
+#citas td {
+  border: #fe000048 1px solid;
+  width: auto;
+  padding: 5px 10px;
+}
+
+#citas th {
+  color: white;
+  background-color: #0D9AD7;
+}
+
+#citas td {
+  font-size: 15px;
+  text-align: center;
+}
+
+#atendiendo td {
+  padding: 5px 10px;
+}
+
+#atendiendo #finalizar {
+  float: right;
+  width: 30%;
+}
+
+#error {
+  color: red;
+}
+
+footer {
+  height: 10%;
+  clear: both;
+  box-shadow: red 2px 0px 8px 0px;
+  background-color: rgba(13, 154, 215, 0.8);
+  font-size: 75%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1.5% 8%;
+  bottom: 0;
+  color: white;
+}
+
+footer #aviso {
+  float: right;
+  margin-top: 1.5%;
+  ;
+}
+
+footer #time {
+  float: left;
+  line-height: 20px;
+}
